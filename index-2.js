@@ -2,76 +2,84 @@ console.log("Hello 2")
 
 function chorus1() {
     let words = "";
-    words += "I'm in the mood for a melody\n"
-    words += "I'm in the mood for a melody\n"
+    words += "I'm in the mood for a melody\n";
+    words += "I'm in the mood for a melody\n";
     words += "I'm in the mood"
     return words;
 }
 
 function chorus2() {
     let words = "";
-    words += "I can make you dance\n"
-    words += "I can make you sing\n"
-    words += "I can make you dance\n"
-    words += "I can make you sing\n"
-    words += "If you want me to"
+    words += "I can make you dance\n";
+    words += "I can make you sing\n";
+    words += "I can make you dance\n";
+    words += "I can make you sing\n";
+    words += "If you want me to";
     return words;
 }
 
 function chorus3() {
     let words = "";
-    words += "Any little song that you wanna to sing\n"
-    words += "Any little song that you wanna to sing"
+    words += "Any little song that you wanna to sing\n";
+    words += "Any little song that you wanna to sing";
     return words;
 }
 
 function line1() {
     let words = "";
-    words += "I'm in the mood"
+    words += "I'm in the mood";
     return words;
 
 }
 
 function line2() {
     let words = "";
-    words += "If you want me to"
+    words += "If you want me to";
     return words;
 }
 
-a = chorus1();
-b = chorus2();
-c = chorus3();
-d = line1();
-e = line2();
+function song() {
+    let words = ""
+    a = chorus1();
+    b = chorus2();
+    c = chorus3();
+    d = line1();
+    e = line2();
 
-console.log(a);
-console.log(a);
-console.log(a);
+    words += `${(a)}`;
+    words += `${(a)}`;
+    words += `${(a)}`;
 
-console.log(b);
-console.log("Oh,");
-console.log(b);
-console.log("Oh,");
-console.log(b);
+    words += `${(b)}`;
+    words += "Oh\n";
+    words += `${(b)}`;
+    words += "Oh\n";
+    words += `${(b)}`;
 
-console.log(c)
-console.log("Any song will do");
-console.log(c)
-console.log("It's up to you");
-console.log(c)
-console.log("You're blue");
+    words += `${(c)}`;
+    words += "Any song will do\n";
+    words += `${(c)}`;
+    words += "It's up to you\n";
+    words += `${(c)}`;
+    words += "You're blue\n";
 
-console.log(d);
-console.log(d);
-console.log(d);
+    words += `${(d)}`;
+    words += `${(d)}`;
+    words += `${(d)}`;
 
-console.log("I can write it on the door");
-console.log("I can put it on the floor");
-console.log("I can do anything that you want me for");
-console.log(e);
+    words += "I can write it on the door\n";
+    words += "I can put it on the floor\n";
+    words += "I can do anything that you want me for\n";
+    words += `${(e)}`;
 
-console.log("Do it right, do it wrong");
-console.log("Cause a matter of fact it'll turn out to be strong");
-console.log(e);
+    words += "Do it right, do it wrong\n";
+    words += "Cause a matter of fact it'll turn out to be strong\n";
+    words += `${(e)}`;
 
-console.log(e);
+    words += `${(e)}`;
+    return words
+}
+
+let s = song()
+
+console.log(s)
