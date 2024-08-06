@@ -39,41 +39,42 @@ function song() {
     let x = chorus2();
     let s = send();
 
-    console.log(w);
-    console.log(w);
-    console.log(w);
-    console.log(w);
-    console.log(c);
-    console.log(x);
-    console.log(s);
-    console.log(w);
-    console.log(s);
-    console.log(w);    
-    console.log(s);
-    console.log(w);    
-    console.log(s);
-    console.log(w);    
-    console.log(s);
-    console.log(w);
-    console.log(s);
-    console.log(w);
-    console.log(s);
-    console.log(w);
-    console.log (`Mm, hmm ${(w)}`);
-    console.log(x);
-    console.log(s);
-    console.log(s);
-    console.log(s);
-    console.log(w);
-    console.log(s);
-    console.log(s);
-    console.log("Ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh");
-    console.log(w);
-    console.log(w);
-    console.log("I would like to reach out my hand");
-    words += `Oombayseeyou, oombaytellyou to run ${(w)} ${(w)}`;
-    console.log("Omabadee, seemoobadeeyah")
+    words += `${(w)}\n`;
+    words += `${(w)}\n`;
+    words += `${(w)}\n`;
+    words += `${(w)}\n`;
+    words += `${(c)}\n`;
+    words += `${(x)}\n`;
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;    
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;    
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;    
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;
+    words += `Mm, hmm ${(w)}\n`;
+    words += `${(x)}\n`;
+    words += `${(s)}\n`;
+    words += `${(s)}\n`;
+    words += `${(s)}\n`;
+    words += `${(w)}\n`;
+    words += `${(s)}\n`;
+    words += `${(s)}\n`;
+    words += "Ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh\n";
+    words += `${(w)}\n`;
+    words += `${(w)}\n`;
+    words += "I would like to reach out my hand\n";
+    words += `Oombayseeyou, oombaytellyou to run ${(w)} ${(w)}\n`;
+    words += "Omabadee, seemoobadeeyah";
     return words
 }
 
-song()
+let s = song()
+console.log(s)
