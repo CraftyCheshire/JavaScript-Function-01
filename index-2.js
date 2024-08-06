@@ -46,37 +46,37 @@ function song() {
     d = line1();
     e = line2();
 
-    words += `${(a)}`;
-    words += `${(a)}`;
-    words += `${(a)}`;
+    words += `${(a)}\n`;
+    words += `${(a)}\n`;
+    words += `${(a)}\n\n`;
 
-    words += `${(b)}`;
+    words += `${(b)}\n`;
     words += "Oh\n";
-    words += `${(b)}`;
+    words += `${(b)}\n`;
     words += "Oh\n";
-    words += `${(b)}`;
+    words += `${(b)}\n\n`;
 
-    words += `${(c)}`;
+    words += `${(c)}\n`;
     words += "Any song will do\n";
-    words += `${(c)}`;
+    words += `${(c)}\n`;
     words += "It's up to you\n";
-    words += `${(c)}`;
-    words += "You're blue\n";
+    words += `${(c)}\n`;
+    words += "You're blue\n\n";
 
-    words += `${(d)}`;
-    words += `${(d)}`;
-    words += `${(d)}`;
+    words += `${(d)}\n`;
+    words += `${(d)}\n`;
+    words += `${(d)}\n\n`;
 
     words += "I can write it on the door\n";
     words += "I can put it on the floor\n";
     words += "I can do anything that you want me for\n";
-    words += `${(e)}`;
+    words += `${(e)}\n\n`;
 
     words += "Do it right, do it wrong\n";
     words += "Cause a matter of fact it'll turn out to be strong\n";
-    words += `${(e)}`;
+    words += `${(e)}\n\n`;
 
-    words += `${(e)}`;
+    words += `${(e)}\n`;
     return words
 }
 

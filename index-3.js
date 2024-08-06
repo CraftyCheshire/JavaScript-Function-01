@@ -6,6 +6,12 @@ function way() {
     return words;
 }
 
+function send() {
+    let words = ""
+    words = "Send me on my way";
+    return words;
+}
+
 function chorus1() {
     let words = "";
     words += "I would like to reach out my hand\n";
@@ -23,12 +29,6 @@ function chorus2() {
     words += "And we will run, we will, we will crawl, we will\n";
     words += "I would like to hold my little hand\n";
     words += "And we will run, we will, we will crawl";
-    return words;
-}
-
-function send() {
-    let words = ""
-    words = "Send me on my way";
     return words;
 }
 
@@ -67,7 +67,7 @@ function song() {
     words += `${(w)}\n`;
     words += `${(s)}\n`;
     words += `${(s)}\n`;
-    words += "Ooh, ooh, ooh, ooh, ooh, ooh, ooh, ooh\n";
+    words += "Ooh(x8)\n";
     words += `${(w)}\n`;
     words += `${(w)}\n`;
     words += "I would like to reach out my hand\n";
